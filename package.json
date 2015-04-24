@@ -1,0 +1,16 @@
+{
+  "name": "@dmail/object",
+  "version": "0.0.3",
+  "author": "Damien Maillard<dmaillard06@gmail.com>",
+  "description": "Provides utility to work with objects",
+  "keywords": [
+    "assign",
+    "define",
+    "clone",
+    "merge",
+    "polyfill",
+    "toSource",
+    "defineProperty"
+  ],
+  "dependencies": {}
+}
