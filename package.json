@@ -16,5 +16,7 @@
     "type": "git",
     "url": "https://github.com/dmail/object"
   },
-  "dependencies": {}
+  "dependencies": {
+    
+  }
 }

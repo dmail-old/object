@@ -5,4 +5,4 @@ function is(a, b){
 }
 
 module.exports = is;
-require('object/polyfill')(Object, 'is', is);
+require('./polyfill')(Object, 'is', is);
