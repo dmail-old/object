@@ -9,8 +9,6 @@ var polyfill = function(object, name, value, force){
 		object = rootScope;
 	}
 
-	name = typeof name == 'symbol' ? name.toString() : String(name);
-
 	if( arguments.length === 2 ){
 		if( object === Array.prototype || object ==  String.prototype ){
 			Object.complement(object, name);
@@ -20,6 +18,8 @@ var polyfill = function(object, name, value, force){
 		}
 	}
 	else{
+		name = typeof name == 'symbol' ? name.toString() : String(name);
+		
 		if( object === Array.prototype || object == String.prototype ){
 			Object.complementProperty(object, name, value, force);
 		}
