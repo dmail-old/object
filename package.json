@@ -1,6 +1,6 @@
 {
   "name": "@dmail/object",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "author": "Damien Maillard<dmaillard06@gmail.com>",
   "description": "Provides utility to work with objects",
   "keywords": [
