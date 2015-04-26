@@ -1,4 +1,4 @@
-require('object/implementProperty');
+require('../implementProperty');
 
 function complementProperty(object, name, value, force){
 	name = typeof name == 'symbol' ? name.toString() : String(name);

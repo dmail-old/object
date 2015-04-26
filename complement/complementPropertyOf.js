@@ -1,4 +1,4 @@
-var implementProperty = require('object/implement/implementPropertyOf');
+var implementProperty = require('../implement/implementPropertyOf');
 
 function complementProperty(object, name, owner){
 	name = typeof name == 'symbol' ? name.toString() : String(name);
