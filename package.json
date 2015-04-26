@@ -1,6 +1,6 @@
 {
   "name": "@dmail/object",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Damien Maillard<dmaillard06@gmail.com>",
   "description": "Provides utility to work with objects",
   "keywords": [
@@ -16,7 +16,5 @@
     "type": "git",
     "url": "https://github.com/dmail/object"
   },
-  "dependencies": {
-    
-  }
+  "dependencies": {}
 }
